@@ -7,15 +7,15 @@ import com.ignore.build.sepcial.builder.SepcialFlowBuilder;
 import com.ignore.build.sepcial.flow.Flow;
 
 /**
- * @Author: renzhiqiang-lhq
+ * @Author: ignore1992
  * @Description:
  * @Date: Created In 11:40 2019/1/31
  */
 public class Main {
     public static void main(String[] args)
     {
-        //构建者模式：采用内部类方式来实现
-        RegularFlow flow = new RegularFlow().newBuilder()
+        //构建者模式：采用静态内部类方式来实现
+        RegularFlow flow = new RegularFlow.Builder()
                         .step1(true)
                         .step2(true)
                         .step3(true)
