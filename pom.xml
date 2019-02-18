@@ -12,6 +12,7 @@
         <module>build-pattern</module>
         <module>template-pattern</module>
         <module>combination-pattern</module>
+        <module>bridge-pattern</module>
     </modules>
 
     <dependencies>
